@@ -89,7 +89,7 @@
 }
 .page > .welcome{
     height: 10vh;
-    margin-top: -40rem;
+    margin-top: -30rem;
     display: flex;
     flex-direction: column;  /* 垂直排列 */
     justify-content: center;  /* 水平 */
@@ -381,5 +381,6 @@ animation: breathe 5s infinite;
     height: auto;
     margin: 0 auto;
    } 
+
 
 
