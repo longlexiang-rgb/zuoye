@@ -1,7 +1,7 @@
   const welcome3 = document.querySelector('#welcome-3');
   const welcome4 = document.querySelector('#welcome-4');
   const trigger3 = 50; 
-  const trigger4 = 450; 
+  const trigger4 = 250; 
   let isShowed3 = false;
   let isShowed4 = false;
 
@@ -167,5 +167,6 @@ zoomTL
     opacity: 0,  // 淡出
     ease: "none"
   })
+
 
 
