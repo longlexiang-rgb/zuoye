@@ -35,7 +35,7 @@
   display: flex;
   flex-direction: column;
   gap: 4rem;
-  left: 9%;
+  left: 7%;
   .nav-item {
     font-size: 2rem;
     font-weight: 600;
@@ -157,4 +157,5 @@ footer{
     #81AEE9 50%,          /* 盒子主体保持纯色 */
     rgba(129, 174, 233, 0.8) 70%,  /* 80%-90% 半透明 */
     #FAFAF0 100%    /* 90%-100% 完全透明 */)
+
 }
