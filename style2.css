@@ -1,0 +1,160 @@
+.head {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  overflow: hidden;
+  img {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  z-index: 1;
+  opacity: 0.6;
+  filter: blur(6px);
+}
+  .head-text{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 3;
+  text-align: center;
+  h1{
+    font-size: 8rem;
+    font-weight: 800;
+    text-shadow: 10px 10px 6px #fff;
+  }
+}
+}
+.left{
+  width: 30%;
+  position: sticky;
+  top: 125px;   /* 距离顶部 */
+  height: fit-content;
+  display: flex;
+  flex-direction: column;
+  gap: 4rem;
+  left: 9%;
+  .nav-item {
+    font-size: 2rem;
+    font-weight: 600;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  }
+}
+.nav-item {
+  padding: 1rem;
+  cursor: pointer;
+  font-size: 1.2rem;
+  transition: all 0.3s ease;
+}
+
+/* 左侧导航项 - 高亮效果 */
+.nav-item.active {
+  font-size: 2.5rem;   /* 放大字体 */
+  color: #f9b233;      /* 改变颜色 */
+}
+
+.right {
+  width: 70%;
+  background-image: linear-gradient(#93e6e3);
+  height: auto;
+  border-radius: 25px;
+  flex-direction: column;
+  gap: 5rem; /* 缩小间隔，使内容更加紧凑 */
+  padding: 2rem; /* 增加整体内边距 */
+}
+
+.content {
+  background-color: #fff;
+  margin: 2rem 0;
+  border-radius: 15px;
+  padding: 2rem;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1); 
+  height: auto;
+}
+
+h2 {
+  position: relative;
+  display: inline-block;
+  font-size: 2.5rem;
+  color: #f9b233;
+  margin-left: 1rem;
+  margin-bottom: 1rem; /* 增加标题与内容的间距 */
+}
+
+.content h2::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: -8px;
+  width: 5rem;
+  height: 3px;
+  background-color: #f9b233;
+}
+
+p {
+  font-size: 1.5rem;
+  font-weight: 400;
+  color: #333;
+  line-height: 1.8;
+  margin-bottom: 2rem; /* 增加段落间距 */
+}
+
+/* 图片布局 */
+.content2 img {
+  margin: auto;
+  height: 30rem;
+  width: 100%; /* 更适应不同屏幕大小 */
+  object-fit: cover;
+  border:1px solid #333;
+  border-radius: 10px; /* 给图片加个圆角 */
+  max-width: calc(50% - 5%); 
+}
+
+/* 图片区布局 */
+.pic {
+  display: flex;
+  gap: 5%;
+  margin-top: 2rem;
+   box-sizing: border-box; 
+}
+
+.pic img:nth-child(1) {
+  flex: 1;
+  object-fit: cover;
+  border-radius: 10px;
+  height: 60rem; /* 限制图片高度 */
+}
+
+/* content3 卡片的顶部 margin 位置 */
+.content3 {
+  margin-top: 80px;
+}
+
+@media(max-width:1400px){
+    .left{
+        left:0;
+    }
+    .content2 .pic{
+        display: flex;
+        flex-direction: column;
+         width: 100%;
+        gap: 5rem;
+    }
+    .content2 img{
+        width: 100%;
+        max-width:10000px;
+    }
+}
+body{
+    height: 3500px;
+}
+footer{
+    background: linear-gradient(
+    to top, 
+    #81AEE9 50%,          /* 盒子主体保持纯色 */
+    rgba(129, 174, 233, 0.8) 70%,  /* 80%-90% 半透明 */
+    #FAFAF0 100%    /* 90%-100% 完全透明 */)
+}

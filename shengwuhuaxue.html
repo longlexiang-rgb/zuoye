@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>生物化学</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style2.css">
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg fixed-top justify-content-between" >
+    <!--navbar-expand-lg: 大屏幕的时候开启nav-->
+    
+  <div class="container" >
+    <!-- HOME -->
+        <div class="nav-item ms-5 ">
+          <a class="smooth-shimmer" href="/Untitled-1.html">欢迎来到我的主页0-0</a>
+        </div>
+    <button class="navbar-toggler"   
+    type="button" data-bs-toggle="collapse" 
+    data-bs-target="#navbarSupportedContent">
+    <span class="navbar-toggler-icon"></span>  <!-- 三条横线图标 ☰ -->
+    </button>
+    <!-- toggler:按钮样式 data-bs-target：具体内容 -->
+
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav ms-auto left-aligned d-flex gap-3">
+        <!-- ms-auto:自动填满左边的空间 left-aligned：文字左对齐 -->
+        <li class="nav-item dropdown">
+            <!-- dropdown：下拉菜单容器-->
+          <a class="nav-link dropdown-toggle" data-="toggle:下拉容器按钮"
+          href="#" id="navbar-project" role="button" 
+          data-bs-toggle="dropdown" aria-expanded="false">
+            生物化学 
+          </a>
+          <div class="dropdown-menu" >
+            <div class="menu-section">
+              <div class="column">
+                <a class="dropdown-item" href="/shengwuhuaxue.html#sec1">研究背景</a>
+                <a class="dropdown-item" href="/shengwuhuaxue.html#sec2">转录终止机制</a>
+              </div>
+              <div class="column">
+                <a class="dropdown-item" href="/shengwuhuaxue.html#sec3">结构进展与应用前景</a>
+              </div>
+              <div class="column">
+                <a class="dropdown-item" href="/shengwuhuaxue.html#sec4">研究结论</a>
+              </div>
+          </div>
+        </div></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+<div class="head">
+    <img src="/image/zhuanlu.png">
+    <div class="head-text">
+      <h1>🧬 RNA 转录终止</h1>
+      <h1>All Good Things Must End</h1>
+      </div>
+</div>
+<div class="bigpage d-flex flex-column">
+<div class="page d-flex">
+    <div class="left">
+         <div class="nav-item" data-target="sec1">研究背景</div>
+         <div class="nav-item" data-target="sec2">转录终止机制</div>
+         <div class="nav-item" data-target="sec3">结构进展与应用前景</div>
+         <div class="nav-item" data-target="sec4">研究结论</div>
+    </div>
+    <div class="right d-flex">
+        <div class="content content1" id="sec1">
+        <h2>一、研究背景</h2>
+            <p>RNA 转录终止是基因表达调控的重要环节，其核心作用在于确保 RNA 聚合酶在特定位置准确停止转录，从而维持基因组稳定性和表达程序的精确性。若终止失调，RNA 聚合酶可能持续延伸，产生异常转录本，干扰下游基因表达，并引发转录与 DNA 复制之间的冲突，进而影响细胞稳态。因此，阐明转录终止的分子机制，对于理解基因调控网络具有重要意义。</p>
+            <p>在细菌中，转录终止主要通过两种方式实现：内在终止（Rho 非依赖型）与 Rho 依赖型终止。这两种机制路径不同，但最终目标一致，即破坏转录延伸复合物的稳定性，释放 RNA 并使 RNA 聚合酶解离。</p>
+        </div>
+        <div class="content content2" id="sec2">
+            <h2>二、转录终止机制</h2>
+            <p>内在终止依赖 DNA 模板编码的终止子序列。转录过程中，新生 RNA 在出口通道内形成发卡结构，同时其末端的弱配对区域降低 RNA–DNA 杂交链稳定性，最终导致转录复合物解体。这一过程主要依赖 RNA 二级结构形成与杂交体不稳定化的协同作用</p>
+            <p>Rho 依赖型终止则需要 ATP 驱动的 RNA 易位酶 Rho 参与。Rho 结合特定 RNA 区域后，在能量驱动下沿 RNA 方向移动并追赶 RNA 聚合酶。当其到达转录复合物时，通过施加机械力破坏 RNA–DNA 杂交体或改变聚合酶构象，从而终止转录。该过程与翻译活动密切相关，在转录–翻译耦联调控中发挥重要作用。</p>
+                <div class="pic d-flex">
+            <img src="/image/1.png" alt=""><img src="/image/2.png" alt="">
+        </div>
+        </div>
+        <div class="content content3" id="sec3">
+            <h2>三、结构进展与应用前景</h2>
+            <p>近年来，冷冻电镜等结构生物学技术揭示了多个终止相关复合物的构象状态，为理解终止过程的动态机制提供了直接证据。结构研究表明，RNA 发卡形成可引发 RNA 聚合酶构象变化，而 Rho 与 NusG 等因子的相互作用则增强终止效率。</p>
+            <p>在应用层面，Rho 在多种细菌中是维持生存所必需的蛋白，因此成为潜在的抗菌药物靶点。针对 Rho ATP 酶活性的抑制剂研究为开发新型抗菌策略提供了理论基础。</p>
+        </div>
+        <div class="content content4" id="sec4">
+            <h2>四、研究结论</h2>
+            <p>RNA 转录终止是一个高度协调的动态分子过程。内在终止依赖 RNA 二级结构诱导的不稳定化机制，而 Rho 依赖型终止则依赖能量驱动的机械作用与调控因子协同。结构与功能研究的结合，使我们对终止机制的认识更加系统，也为未来基础研究与药物开发提供了新的方向。</p>
+        </div>
+    </div>
+</div>
+<footer class="d-flex">
+    <div class="ico"><img src="/image/ico.jpg" alt="">
+    </div>
+    <div class="text">
+       <p> 联系我：llx2024@cau.edu.cn</p>
+       <p>特别致谢：豆包老师、kimi老师、Chatgpt老师、Gemini老师</p>
+    </div>
+</footer>
+</div>
+     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script>
+        // 监听每个 section 进入视口，激活对应的导航项
+const sections = document.querySelectorAll('.content');
+const navItems = document.querySelectorAll('.nav-item');
+
+// 监听每个 section 的滚动
+const observer = new IntersectionObserver((entries) => {
+  entries.forEach(entry => {
+    const targetId = entry.target.id; // 获取当前 section 的 id
+    const navItem = document.querySelector(`.nav-item[data-target="${targetId}"]`);
+
+    if (entry.isIntersecting) {
+      // 激活当前导航项
+      navItem.classList.add('active');
+    } else {
+      // 取消激活
+      navItem.classList.remove('active');
+    }
+  });
+}, { threshold: 0.5 }); // 当 section 至少有 50% 进入视口时触发
+
+sections.forEach(section => observer.observe(section));
+
+// 平滑滚动效果
+navItems.forEach(item => {
+  item.addEventListener('click', (e) => {
+    const targetId = e.target.getAttribute('data-target');
+    const targetElement = document.getElementById(targetId);
+
+    targetElement.scrollIntoView({
+      behavior: 'smooth',
+      block: 'start'
+    });
+  });
+});
+    </script>
+    </body>
+</html>
