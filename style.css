@@ -374,10 +374,11 @@ animation: breathe 5s infinite;
     top: 70%;
 }
 .text-block5{
-    top: 80%;
+    top:90%;
 }
 .spotlight .row:nth-child(4) .img{
     position: relative;
     height: auto;
     margin: 0 auto;
    } 
+
