@@ -35,7 +35,7 @@
   display: flex;
   flex-direction: column;
   gap: 4rem;
-  left: 7%;
+  left: 5%;
   .nav-item {
     font-size: 2rem;
     font-weight: 600;
@@ -159,3 +159,4 @@ footer{
     #FAFAF0 100%    /* 90%-100% 完全透明 */)
 
 }
+
