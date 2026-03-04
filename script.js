@@ -97,7 +97,7 @@ if (path) {
 const zoomTL = gsap.timeline({
   scrollTrigger: {
     trigger: ".spotlight",
-    start: "+=3500",      // 👈 从第一段结束位置开始
+    start: "+=2900",      // 👈 从第一段结束位置开始
     end: "+=2000",       // pin 的滚动长度
     scrub: true,
     pin: true
@@ -167,4 +167,5 @@ zoomTL
     opacity: 0,  // 淡出
     ease: "none"
   })
+
 
